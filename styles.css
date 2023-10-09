@@ -1,0 +1,233 @@
+/** FONTS **/
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../fonts/MSans-Medium.ttf');
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'DM Sans', serif;
+    font-weight: bold;
+}
+
+p {
+    color: #8c8c8c;
+}
+
+a {
+    text-decoration: none;
+}
+
+small {
+    font-size: 11px;
+}
+
+.cl-blue {
+    background-color: #5C98F2;
+}
+
+.btn-blue {
+    background-color: #5C98F2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.header-navigation {
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 25px;
+}
+
+.header-navigation nav a,
+footer a {
+    margin: 0 15px;
+    color: #94999f;
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.header-navigation nav .active {
+    color: #292929;
+}
+
+.header {
+    background-color: #f8f8f8;
+    padding: 50px 120px;
+}
+
+.header img {
+    border-radius: 20px;
+}
+
+.header-text .book {
+    background-color: white;
+    box-shadow: 0 10px 20px rgb(10 10 10 / 5%);
+    color: #41ddb8;
+    padding: 5px 15px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.tour-search {
+    position: relative;
+    top: -300px;
+    width: 55%;
+    box-shadow: 0 20px 35px rgba(20, 20, 20, 0.08);
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 120px;
+    font-size: 14px;
+}
+
+.tour-search-item {
+    padding: 20px 30px 20px 0px;
+    width: 100%;
+}
+
+.tour-search-item-field {
+    height: 48px;
+    width: 100%;
+    border: 0;
+    outline: none;
+    color: #7f7f7f;
+}
+
+.tour-search-item-button {
+    width: 600px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 0;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+}
+
+h1 {
+    font-size: 84px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: #1e1e1e;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.catalog h2 {
+    margin: 60px 0;
+}
+
+span {
+    color: #5C98F2;
+}
+
+.catalog {
+    text-align: center;
+    padding: 0 50px;
+}
+
+.catalog-more {
+    color: #343434;
+    border-bottom: solid #cecece 2px;
+    display: inline-block;
+    margin: 40px;
+}
+
+.catalog i {
+    color: #acacac;
+}
+
+.catalog-item {
+    border-radius: 20px;
+    position: relative;
+    color: white;
+    margin: 8px;
+}
+
+.catalog-item-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.catalog-item-info {
+    position: absolute;
+    top: 0;
+    width: calc(100% - 25px);
+    height: 100%;
+    padding: 40px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.catalog-item-ribbon {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 8px 10px;
+}
+
+.catalog-item-title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    margin-bottom: 0;
+    padding: 0 40px;
+    transition: bottom 0.8s;
+}
+
+.catalog-item-info-description {
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 20px 40px;
+    transition: top 0.8s;
+}
+
+.catalog-item-info-description a {
+    color: #5C98F2;
+    font-weight: bold;
+}
+
+.catalog-item:hover .catalog-item-info {
+    background-color: rgba(0, 0, 0, 0.514);
+}
+.catalog-item:hover .catalog-item-info-description {
+    opacity: 1;
+}
+
+.top-destinations .catalog-item:hover .catalog-item-title {
+    bottom: 180px;
+}
+
+.top-destinations .catalog-item:hover .catalog-item-info-description {
+    top: 90px;
+}
+
+.popular-tours .catalog-item:hover .catalog-item-title {
+    bottom: 18%;
+}
+
+.popular-tours .catalog-item:hover .catalog-item-info-description {
+    top: 80%;
+}
+
